@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 import Hero from '../components/Hero';
 
-const Home = () => {
+const Error = () => {
   return (
     <div>
       <Hero />
@@ -10,4 +10,4 @@ const Home = () => {
 }
 
 
-export default Home; 
+export default Error; 

@@ -1,10 +1,10 @@
 import React from 'react'
 
-// Hero props for style changing , Children for rendering 
-const Hero = ({hero, Children}) => {
+// Hero props for style changing , children for rendering 
+const Hero = ({hero, children}) => {
   return (
     <div className={hero}>
-      {Children}
+      {children}
     </div>
   )
   

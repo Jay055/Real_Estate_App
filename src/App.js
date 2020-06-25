@@ -18,7 +18,7 @@ function App() {
        <Route path ="/" exact component={Home} />
        <Route path ="/rooms" exact component={Rooms} />
        {/* Route parameters, : acts as a wild card  */}
-       <Route path ="/rooms/:single" exact component={SingleRoom} />
+       <Route path ="/rooms/:slug" exact component={SingleRoom} />
         {/* with the switch tag return any path that's not matched */}
         <Route component={Error} /> 
 

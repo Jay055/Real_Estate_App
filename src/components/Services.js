@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import Title from './Title';
-import {FaCockTail, FaHiking, FaShuttleVan, FaBeer, FaCocktail} from 'react-icons/fa'
+import { FaHiking, FaShuttleVan, FaBeer, FaCocktail} from 'react-icons/fa'
 
 
 class Services extends Component{
@@ -10,15 +10,15 @@ class Services extends Component{
    title: "free cocktails",
    info: "Get Free cocktails whenever you spend a night with us "
   },
-  {  icon:<FaCocktail/>,
+  {  icon:<FaHiking/>,
     title: "free cocktails",
     info: "Get Free cocktails whenever you spend a night with us "
    },
-   {  icon:<FaCocktail/>,
+   {  icon:<FaShuttleVan/>,
     title: "free cocktails",
     info: "Get Free cocktails whenever you spend a night with us "
    },
-   {  icon:<FaCocktail/>,
+   {  icon:<FaBeer/>,
     title: "free cocktails",
     info: "Get Free cocktails whenever you spend a night with us "
    }

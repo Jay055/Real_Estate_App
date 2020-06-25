@@ -34,7 +34,7 @@ import { Link } from 'react-router-dom';
           </button>
 
         </div>
-          <ul className={this.state.isOpen?"nav-links show-nav":"navlinks"}>
+          <ul className={this.state.isOpen ? "nav-links show-nav":"nav-links"}>
             <li>
               <Link to ="/">Home</Link>
             </li>

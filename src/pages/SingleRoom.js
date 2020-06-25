@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import defaultBcg from '../images/room-1.jpeg';
-import Hero from '../components/Hero';
+// import Hero from '../components/Hero';
 import Banner from '../components/Banner';
 import { Link } from 'react-router-dom';
+import StyledHero from '../components/StyledHero'; 
 
 import { RoomContext}  from '../Context';
 
@@ -45,7 +46,7 @@ class SingleRoom extends Component {
     // Destructure from room 
     const {name, description, capacity, size, price, extras, breakfast, pets,images} = room
     return (
-      <Hero hero='roomsHero'>
+      <StyledHero img={images[0] || this.state.defaultBcg} hero='roomsHero'>
         <Banner title={`${name} room`}>
           <Link to = '/rooms' className="btn-primary">
             Back to Rooms 
@@ -55,7 +56,7 @@ class SingleRoom extends Component {
       <div>
         Hello from single room page         
       </div>
-      </Hero>
+      </StyledHero>
     )
   }
 }

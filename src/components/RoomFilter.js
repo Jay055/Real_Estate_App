@@ -7,3 +7,8 @@ export default function RoomFilter() {
     </div>
   )
 }
+
+
+
+//  Filtered Rooms: Add to the Provider state 
+

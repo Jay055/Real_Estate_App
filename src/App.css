@@ -448,7 +448,7 @@ h6 {
   grid-row-gap: 2rem;
   grid-column-gap: 30px;
 }
-
+/* auto-fill: fills up the designated availabe space when the items are avaliable */
 @media screen and (min-width: 776px) {
   .roomslist-center {
     width: 90vw;

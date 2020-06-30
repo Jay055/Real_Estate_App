@@ -2,10 +2,10 @@ import React from 'react';
 import Hero from '../components/Hero';
 import Banner from '../components/Banner'
 import { Link } from 'react-router-dom';
-
+import RoomContainer from '../components/RoomContainer'
 const Rooms = () => {
   return (
-    <div>
+    <>
     <Hero hero ="roomsHero" >
     <Banner title="Our rooms" subtitle="Luxury like you never experienced">
       <Link to = "/" className="btn-primary">
@@ -15,7 +15,8 @@ const Rooms = () => {
     </Banner>
 
     </Hero>
-    </div>
+    <RoomContainer />
+    </>
   )
 }
 

@@ -13,7 +13,7 @@ class SingleRoom extends Component {
     constructor(props){
       super(props);
    
-      console.log(this.props) // componentDidMount()
+      // console.log(this.props) // componentDidMount()
       this.state = { 
        
         slug: this.props.match.params.slug,
@@ -85,7 +85,7 @@ class SingleRoom extends Component {
            <h6> size: ${size} SQFT</h6>
            <h6> 
              max capacity: 
-             {(capacity>1)? `${capacity} people`:`${capacity} person`} 
+             {(capacity>1)? `${capacity}  people`:`${capacity} person`} 
                
            </h6>
            <h6>{pets?"pets allowed":"no pets allowed"}</h6>
